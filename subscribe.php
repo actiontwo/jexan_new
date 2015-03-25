@@ -13,7 +13,7 @@ if ( isset( $_POST['newsletter_submit'] ) ) {
 	
 	// Send email if no input errors
 	if ( empty( $newsletter_errors ) ) {
-		$email_to = "example@example.com"; // Change to your own email address
+		$email_to = "sg@jexan.com"; // Change to your own email address
 		$subject = "Newsletter Subscription";
 		$body = "Subscriber details: " . $newsletter_email . "\r\n";
 		$headers = "Newsletter Subscription <" . $email_to . ">\r\nReply-To: " . $newsletter_email . "\r\n";
