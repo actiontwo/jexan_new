@@ -28,7 +28,7 @@
 		});
 
 		// Add background image
-		$('.left-wrap .bg').backstretch('images/bg.jpg');
+		$('.left-wrap .bg').backstretch('images/parallax4.jpg');
 
 		// Invoke the Placeholder plugin
 		$('input, textarea').placeholder();
@@ -123,9 +123,9 @@
 		// Change the default values according to your needs.
 		// mapLat and mapLong represents the latitude and longitude coordinates of your location.
 		// mapInfo represents the info which is displayed when the marker is clicked
-		var mapLat = 37.77493,
-			mapLong = -122.419416,
-			mapInfo = '<div id="content">HalfTime Studio</div>';
+		var mapLat = 33.481817,
+			mapLong = -111.936209,
+			mapInfo = '<div id="content">Jexan</div>';
 
 		// Create a LatLng object
 		mapLatLng = new google.maps.LatLng(mapLat, mapLong);
